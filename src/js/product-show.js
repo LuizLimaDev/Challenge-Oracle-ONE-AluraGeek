@@ -1,23 +1,30 @@
-import { conectaApi } from "./products-service.js";
+import { produtosService } from './products-service.js'
+import { cardBuild } from './card-build.js'
 
-const lista = document.querySelector('[data-starWars]');
+//selecionando categorias de produtos
+const starWarsList = document.querySelector('.starWars');
+const consolesList = document.querySelector('.consoles');
+const miscList = document.querySelector('.diversos');
 
-function constroiCard(imageUrl, alt, name, price) {
-  const produto = document.createElement('div');
-  produto.className = 'product-box';
-  produto.innerHTML = `<img src="${imageUrl}" alt="${alt}" class="product-box-img">
-  <h4 class="product-box-title">${name}</h4>
-  <p class="product-box-price">${price}</p>
-  <a href="#" class="product-box-link">Ver produto</a>
-  `
 
-  return produto;
-}
+// Criando as sessoes dinamicamente
+produtosService.productsList('starWars')
+  .then(data => {
+    data.forEach(elemento => {
+      starWarsList.appendChild(cardBuild(elemento.imageUrl, elemento.alt, elemento.name, elemento.price))
+    });
+  })
 
-async function listaProdutos() {
-  const listaApi = await conectaApi.listaProdutos();
-  listaApi.forEach(element => lista.appendChild(
-    constroiCard(element.imageUrl, element.alt, element.name, element.price)));
-}
+produtosService.productsList('consoles')
+  .then(data => {
+    data.forEach(elemento => {
+      consolesList.appendChild(cardBuild(elemento.imageUrl, elemento.alt, elemento.name, elemento.price))
+    });
+  })
 
-listaProdutos()
+produtosService.productsList('diversos')
+  .then(data => {
+    data.forEach(elemento => {
+      miscList.appendChild(cardBuild(elemento.imageUrl, elemento.alt, elemento.name, elemento.price))
+    });
+  })

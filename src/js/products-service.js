@@ -1,11 +1,11 @@
 //get
-async function listaProdutos() {
-  const api = await fetch(`http://localhost:3000/starWars`);
+async function productsList(categoria) {
+  const api = await fetch(`http://localhost:3000/${categoria}`);
   const json = await api.json();
 
-  return json
+  return json;
 }
 
-export const conectaApi = {
-  listaProdutos
+export const produtosService = {
+  productsList
 }

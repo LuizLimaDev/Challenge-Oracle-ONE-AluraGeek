@@ -2,7 +2,7 @@
 	"starWars": [
 		{
 			"id": 1,
-			"imageUrl": "../img/star-wars/trooper helmet.svg",
+			"imageUrl": "src/img/star-wars/trooper helmet.svg",
 			"alt": "imagem caneca do trooper",
 			"name": "Caneca Trooper",
 			"price": "R$ 60.00",
@@ -11,7 +11,7 @@
 		},
 		{
 			"id": 2,
-			"imageUrl": "../img/star-wars/vader kylo.svg",
+			"imageUrl": "src/img/star-wars/vader kylo.svg",
 			"alt": "imagem bonecos vader e kylo",
 			"name": "Bonecos Dark Side",
 			"price": "R$ 260.00",
@@ -20,7 +20,7 @@
 		},
 		{
 			"id": 3,
-			"imageUrl": "../img/star-wars/yoda.svg",
+			"imageUrl": "src/img/star-wars/yoda.svg",
 			"alt": "imagem quadro Yoda",
 			"name": "Quadro Yoda",
 			"price": "R$ 120.00",
@@ -29,9 +29,9 @@
 		},
 		{
 			"id": 4,
-			"imageUrl": "../img/star-wars/yoda.svg",
-			"alt": "imagem quadro Yoda",
-			"name": "Quadro Yoda",
+			"imageUrl": "src/img/star-wars/trooper.svg",
+			"alt": "imagem quadro trooper",
+			"name": "Quadro Trooper",
 			"price": "R$ 120.00",
 			"section": "Star Wars",
 			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?"
@@ -40,7 +40,7 @@
 	"consoles": [
 		{
 			"id": 1,
-			"imageUrl": "../img/consoles/control.svg",
+			"imageUrl": "src/img/consoles/control.svg",
 			"alt": "imagem controle xBox",
 			"name": "Controle X-Box",
 			"price": "R$ 120.00",
@@ -49,7 +49,7 @@
 		},
 		{
 			"id": 2,
-			"imageUrl": "../img/consoles/ps5.svg",
+			"imageUrl": "src/img/consoles/ps5.svg",
 			"alt": "imagem ps5",
 			"name": "PS5",
 			"price": "R$ 3.500,00",
@@ -58,7 +58,7 @@
 		},
 		{
 			"id": 3,
-			"imageUrl": "../img/consoles/nintendo.svg",
+			"imageUrl": "src/img/consoles/nintendo.svg",
 			"alt": "imagem Nintendo",
 			"name": "Controle X-Box",
 			"price": "R$ 150.00",
@@ -67,7 +67,7 @@
 		},
 		{
 			"id": 4,
-			"imageUrl": "../img/consoles/2 switch control.svg",
+			"imageUrl": "src/img/consoles/2 switch control.svg",
 			"alt": "imagem controle switch",
 			"name": "Controle Switch",
 			"price": "R$ 100.00",
@@ -78,7 +78,7 @@
 	"diversos": [
 		{
 			"id": 9,
-			"imageUrl": "../img/diversos/atari.svg",
+			"imageUrl": "src/img/diversos/atari.svg",
 			"alt": "camiseta atari",
 			"name": "Camiseta atari",
 			"price": "R$ 50.00",

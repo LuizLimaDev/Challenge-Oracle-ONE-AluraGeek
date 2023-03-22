@@ -36,7 +36,7 @@
   width: 100%;
   height: 56px;
   padding: .75rem 0 0 .5rem;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
 
   border: none;
   box-shadow: rgba(0, 0, 0, 0.15) 0 1.95px 2.6px;
@@ -44,7 +44,7 @@
 
 .input-label {
   position: relative;
-  bottom: 70px;
+  bottom: 52px;
   left: 8px;
 
   font-weight: 600;

@@ -33,11 +33,13 @@
 
   width: 328px;
   height: 514px;
+  overflow: hidden;
 }
 
 .product-box {
   width: 156px;
   height: 249px;
+  margin-bottom: .5rem;
 }
 
 .product-box-img {

@@ -1,0 +1,50 @@
+.container-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 360px;
+  height: 72px;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 28.41px;
+}
+
+.logo-text {
+  width: 71.59px;
+}
+
+.header-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 133px;
+  height: 40px;
+  border: 1px solid var(--primary-blue);
+
+  font-weight: 600;
+  font-size: .875rem;
+  text-decoration: none;
+  text-align: center;
+
+  color: var(--primary-blue);
+}
+
+.header-search {
+  width: 24px;
+}
+
+.large {
+  width: 50px;
+}
+
+.wider {
+  width: 126px;
+}

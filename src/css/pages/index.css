@@ -1,0 +1,50 @@
+@import url("../components/header.css");
+@import url("../components/products.css");
+@import url("../components/footer.css");
+
+.container-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  width: 100%;
+  height: 192px;
+  padding: 1rem;
+
+  background-image: url("../../img/banner/banner-mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-tittle {
+  margin-bottom: .5rem;
+
+  font-weight: 700;
+  font-size: 1.375rem;
+
+  color: var(--primary-white);
+}
+
+.text-description {
+  font-weight: 600;
+  font-size: .875rem;
+  margin-bottom: .5rem;
+
+  color: var(--primary-white);
+}
+
+.text-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 119px;
+  height: 40px;
+
+  font-weight: 600;
+  font-size: .875rem;
+  text-decoration: none;
+
+  background-color: var(--primary-blue);
+  color: var(--primary-white);
+}

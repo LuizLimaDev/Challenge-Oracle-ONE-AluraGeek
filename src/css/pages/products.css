@@ -1,6 +1,15 @@
 @import url('../components/header.css');
 @import url('../components/footer.css');
 
+.container-header {
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.header-login {
+  display: none;
+}
+
 .container-allProducts {
   display: inline-flex;
   flex-direction: column;
@@ -53,11 +62,32 @@
 
   width: 140px;
   height: 220px;
+  position: relative;
 }
 
 .product-box-img {
   width: 140px;
   height: 140px;
+}
+
+.product-delete,
+.product-edit {
+  display: flex;
+  position: absolute;
+}
+
+.product-delete {
+  width: 18px;
+  height: 18px;
+  top: 4%;
+  right: 30%;
+}
+
+.product-edit {
+  width: 28px;
+  height: 25px;
+  top: 2.2%;
+  right: 3%;
 }
 
 .product-box-title {
@@ -66,4 +96,8 @@
 
 .product-box-price {
   font-weight: 700;
+}
+
+.container-nav {
+  margin-bottom: 0;
 }

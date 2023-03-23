@@ -13,7 +13,7 @@ function cardBuilder(categoria) {
   produtosService.productsList(categoria)
     .then(data => {
       data.forEach(elemento => {
-        allProducts.appendChild(cardBuild(elemento.imageUrl, elemento.alt, elemento.name, elemento.price))
+        allProducts.appendChild(cardBuild(elemento.imageUrl, elemento.deleteImg, elemento.editImg, elemento.alt, elemento.name, elemento.price, elemento.id))
       })
     })
 }

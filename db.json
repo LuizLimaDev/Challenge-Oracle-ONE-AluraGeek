@@ -7,7 +7,9 @@
 			"name": "Caneca Trooper",
 			"price": "R$ 60.00",
 			"section": "Star Wars",
-			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?"
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?",
+			"deleteImg": "../img/adding-product/delete.svg",
+			"editImg": "../img/adding-product/edit.svg"
 		},
 		{
 			"id": 2,
@@ -16,7 +18,9 @@
 			"name": "Bonecos Dark Side",
 			"price": "R$ 260.00",
 			"section": "Star Wars",
-			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?"
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?",
+			"deleteImg": "../img/adding-product/delete.svg",
+			"editImg": "../img/adding-product/edit.svg"
 		},
 		{
 			"id": 3,
@@ -25,7 +29,9 @@
 			"name": "Quadro Yoda",
 			"price": "R$ 120.00",
 			"section": "Star Wars",
-			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?"
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?",
+			"deleteImg": "../img/adding-product/delete.svg",
+			"editImg": "../img/adding-product/edit.svg"
 		},
 		{
 			"id": 4,
@@ -34,7 +40,9 @@
 			"name": "Quadro Trooper",
 			"price": "R$ 120.00",
 			"section": "Star Wars",
-			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?"
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?",
+			"deleteImg": "../img/adding-product/delete.svg",
+			"editImg": "../img/adding-product/edit.svg"
 		},
 		{
 			"id": 5,
@@ -43,7 +51,9 @@
 			"name": "Boneco Grogo",
 			"price": "R$ 100.00",
 			"section": "Star Wars",
-			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?"
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?",
+			"deleteImg": "../img/adding-product/delete.svg",
+			"editImg": "../img/adding-product/edit.svg"
 		},
 		{
 			"id": 6,
@@ -52,7 +62,9 @@
 			"name": "Quadro Kylo Ren",
 			"price": "R$ 120.00",
 			"section": "Star Wars",
-			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?"
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?",
+			"deleteImg": "../img/adding-product/delete.svg",
+			"editImg": "../img/adding-product/edit.svg"
 		}
 	],
 	"consoles": [
@@ -63,7 +75,9 @@
 			"name": "Controle X-Box",
 			"price": "R$ 120.00",
 			"section": "Consoles",
-			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?"
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?",
+			"deleteImg": "../img/adding-product/delete.svg",
+			"editImg": "../img/adding-product/edit.svg"
 		},
 		{
 			"id": 8,
@@ -72,7 +86,9 @@
 			"name": "PS5",
 			"price": "R$ 3.500,00",
 			"section": "Consoles",
-			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?"
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?",
+			"deleteImg": "../img/adding-product/delete.svg",
+			"editImg": "../img/adding-product/edit.svg"
 		},
 		{
 			"id": 9,
@@ -81,7 +97,9 @@
 			"name": "Controle X-Box",
 			"price": "R$ 150.00",
 			"section": "Consoles",
-			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?"
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?",
+			"deleteImg": "../img/adding-product/delete.svg",
+			"editImg": "../img/adding-product/edit.svg"
 		},
 		{
 			"id": 10,
@@ -90,7 +108,9 @@
 			"name": "Controle Switch",
 			"price": "R$ 100.00",
 			"section": "Consoles",
-			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?"
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?",
+			"deleteImg": "../img/adding-product/delete.svg",
+			"editImg": "../img/adding-product/edit.svg"
 		},
 		{
 			"id": 11,
@@ -99,7 +119,9 @@
 			"name": "X-Box",
 			"price": "R$ 2.700.00",
 			"section": "Consoles",
-			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?"
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?",
+			"deleteImg": "../img/adding-product/delete.svg",
+			"editImg": "../img/adding-product/edit.svg"
 		},
 		{
 			"id": 12,
@@ -108,7 +130,9 @@
 			"name": "Game Boy",
 			"price": "R$ 100.00",
 			"section": "Consoles",
-			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?"
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?",
+			"deleteImg": "../img/adding-product/delete.svg",
+			"editImg": "../img/adding-product/edit.svg"
 		}
 	],
 	"diversos": [
@@ -119,7 +143,9 @@
 			"name": "Camiseta atari",
 			"price": "R$ 50.00",
 			"section": "Diversos",
-			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?"
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?",
+			"deleteImg": "../img/adding-product/delete.svg",
+			"editImg": "../img/adding-product/edit.svg"
 		},
 		{
 			"id": 14,
@@ -128,7 +154,9 @@
 			"name": "Camiseta SNES",
 			"price": "R$ 50.00",
 			"section": "Diversos",
-			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?"
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?",
+			"deleteImg": "../img/adding-product/delete.svg",
+			"editImg": "../img/adding-product/edit.svg"
 		},
 		{
 			"id": 15,
@@ -137,7 +165,9 @@
 			"name": "Boneco Sonic",
 			"price": "R$ 120.00",
 			"section": "Diversos",
-			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?"
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?",
+			"deleteImg": "../img/adding-product/delete.svg",
+			"editImg": "../img/adding-product/edit.svg"
 		},
 		{
 			"id": 16,
@@ -146,7 +176,9 @@
 			"name": "Relógio alarme",
 			"price": "R$ 70.00",
 			"section": "Diversos",
-			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?"
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?",
+			"deleteImg": "../img/adding-product/delete.svg",
+			"editImg": "../img/adding-product/edit.svg"
 		},
 		{
 			"id": 17,
@@ -155,7 +187,9 @@
 			"name": "Óculos virtual",
 			"price": "R$ 370.00",
 			"section": "Diversos",
-			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?"
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?",
+			"deleteImg": "../img/adding-product/delete.svg",
+			"editImg": "../img/adding-product/edit.svg"
 		},
 		{
 			"id": 18,
@@ -164,7 +198,9 @@
 			"name": "Pelúcia Picachu",
 			"price": "R$ 60.00",
 			"section": "Diversos",
-			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?"
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum quibusdam adipisci sit saepe ratione consectetur. Maxime nostrum magnam, optio quibusdam ducimus perspiciatis quos ratione sunt tenetur non quo! Nesciunt sapiente natus tempore nisi optio dolorem delectus impedit officia consectetur repellat incidunt molestiae vel officiis, fugiat id aut inventore hic reprehenderit iure obcaecati maiores repellendus reiciendis, expedita magni! Placeat facilis dignissimos magnam praesentium enim officiis molestiae rerum atque velit eveniet necessitatibus et accusamus in, laudantium alias debitis illum a cumque officia unde excepturi, exercitationem architecto, nesciunt cupiditate? Vitae praesentium pariatur similique laudantium dicta iure totam, aspernatur vero voluptates veniam quia?",
+			"deleteImg": "../img/adding-product/delete.svg",
+			"editImg": "../img/adding-product/edit.svg"
 		}
 	]
 }

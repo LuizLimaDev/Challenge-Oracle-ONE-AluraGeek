@@ -5,7 +5,6 @@ import { cardBuild } from './card-build.js'
 const starWarsList = document.querySelector('.starWars');
 const consolesList = document.querySelector('.consoles');
 const miscList = document.querySelector('.diversos');
-const allProducts = document.querySelector('.container-allProductsShow');
 
 // Criando as sessoes dinamicamente
 function cardBuilder(list, categoria) {
@@ -16,7 +15,7 @@ function cardBuilder(list, categoria) {
   produtosService.productsList(categoria)
     .then(data => {
       data.forEach(elemento => {
-        list.appendChild(cardBuild(elemento.imageUrl, elemento.alt, elemento.name, elemento.price, elemento.id, elemento.section))
+        list.appendChild(cardBuild(elemento.imageUrl, elemento.deleteImg, elemento.editImg, elemento.alt, elemento.name, elemento.price, elemento.id))
       })
     })
 }

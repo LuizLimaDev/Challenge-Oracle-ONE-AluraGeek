@@ -15,6 +15,6 @@ body {
   color: var(--primary-gray);
 }
 
-/* .hide {
+.hide {
   display: none;
-} */
+}

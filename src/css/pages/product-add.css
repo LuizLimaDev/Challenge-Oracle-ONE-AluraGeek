@@ -1,0 +1,86 @@
+@import url('../components/header.css');
+@import url('../components/footer.css');
+
+.header-admin {
+  padding: .75rem 1rem;
+  border: 1px solid var(--primary-blue);
+
+  font-weight: 600;
+  font-size: .875rem;
+  text-decoration: none;
+
+  color: var(--primary-blue);
+}
+
+.container-addProduct {
+  display: flex;
+  flex-direction: column;
+
+  padding: 1rem;
+
+  background-color: var(--secondary-white);
+}
+
+.addProduct-title {
+  font-weight: 700;
+  font-size: 1.375rem;
+
+  margin-bottom: 1rem;
+}
+
+.addProduct-input {
+  position: relative;
+  width: 100%;
+  height: 56px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 1.95px 2.6px;
+  margin-bottom: 1rem;
+  padding: .75rem 0 0 .75rem;
+}
+
+.addProduct-label {
+  font-weight: 400;
+  font-size: .75rem;
+}
+
+.url,
+.section,
+.name,
+.price {
+  position: absolute;
+  top: 17%;
+  left: 8%;
+}
+
+.section {
+  top: 26%;
+}
+
+.name {
+  top: 35%;
+}
+
+.price {
+  top: 44%;
+}
+
+.description {
+  width: 328px;
+  height: 82px;
+
+  font-family: var(--primary-font);
+  font-size: 1rem;
+}
+
+.addProduct-button {
+  width: 100%;
+  height: 51px;
+  padding: 12px 1rem;
+  border: none;
+
+  font-weight: 600;
+  font-size: 1rem;
+
+  background-color: var(--primary-blue);
+  color: var(--primary-white);
+}

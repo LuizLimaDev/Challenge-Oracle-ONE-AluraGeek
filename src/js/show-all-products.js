@@ -1,5 +1,7 @@
 import { produtosService } from './products-service.js'
 import { cardBuild } from './card-build.js'
+// import { clienteService } from '../../../../Alura/Java Script/Projeto 13 - CRUD/service/cliente-service.js';
+// import { deleteProduct } from './delete-product.js';
 
 //selecionando categorias de produtos
 const allProducts = document.querySelector('.container-allProductsShow');
@@ -13,7 +15,7 @@ function cardBuilder(categoria) {
   produtosService.productsList(categoria)
     .then(data => {
       data.forEach(elemento => {
-        allProducts.appendChild(cardBuild(elemento.imageUrl, elemento.deleteImg, elemento.editImg, elemento.alt, elemento.name, elemento.price, elemento.id))
+        allProducts.appendChild(cardBuild(elemento.url, elemento.deleteImg, elemento.editImg, elemento.alt, elemento.name, elemento.price, elemento.id, elemento.idHtml))
       })
     })
 }
@@ -21,4 +23,7 @@ function cardBuilder(categoria) {
 cardBuilder('starWars')
 cardBuilder('consoles')
 cardBuilder('diversos')
+
+
+
 

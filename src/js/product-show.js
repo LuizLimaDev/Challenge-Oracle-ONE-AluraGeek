@@ -15,7 +15,7 @@ function cardBuilder(list, categoria) {
   produtosService.productsList(categoria)
     .then(data => {
       data.forEach(elemento => {
-        list.appendChild(cardBuild(elemento.imageUrl, elemento.deleteImg, elemento.editImg, elemento.alt, elemento.name, elemento.price, elemento.id))
+        list.appendChild(cardBuild(elemento.url, elemento.deleteImg, elemento.editImg, elemento.alt, elemento.name, elemento.price, elemento.id))
       })
     })
 }
@@ -23,4 +23,3 @@ function cardBuilder(list, categoria) {
 cardBuilder(starWarsList, 'starWars')
 cardBuilder(consolesList, 'consoles')
 cardBuilder(miscList, 'diversos')
-

@@ -36,6 +36,8 @@
 
   font-weight: 600;
   font-size: .75rem;
+  text-align: center;
+  text-decoration: none;
 
   background-color: var(--primary-blue);
   color: var(--primary-white);
@@ -74,6 +76,8 @@
 .product-edit {
   display: flex;
   position: absolute;
+
+  cursor: pointer;
 }
 
 .product-delete {
@@ -81,6 +85,8 @@
   height: 18px;
   top: 4%;
   right: 30%;
+
+  /* cursor: pointer; */
 }
 
 .product-edit {
@@ -88,6 +94,8 @@
   height: 25px;
   top: 2.2%;
   right: 3%;
+
+  /* cursor: pointer; */
 }
 
 .product-box-title {

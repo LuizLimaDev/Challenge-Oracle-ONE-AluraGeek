@@ -6,7 +6,7 @@ const productList = () => {
 }
 
 const createProduct = (url, section, name, price, description) => {
-  fetch(`http://localhost:3000/produtos/`, {
+  fetch(`https://alura-geek-api.onrender.com/produtos`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
@@ -26,20 +26,20 @@ const createProduct = (url, section, name, price, description) => {
 }
 
 const productDelete = (id) => {
-  return fetch(`http://localhost:3000/produtos/${id}`, {
+  return fetch(`https://alura-geek-api.onrender.com/produtos/${id}`, {
     method: 'DELETE'
   })
 }
 
 const productDetails = (id) => {
-  return fetch(`http://localhost:3000/produtos/${id}`)
+  return fetch(`https://alura-geek-api.onrender.com/produtos/${id}`)
     .then(resposta => {
       return resposta.json()
     })
 }
 
 const updateProduct = (url, section, name, price, description, id) => {
-  fetch(`http://localhost:3000/produtos/${id}`, {
+  fetch(`https://alura-geek-api.onrender.com/produtos/${id}`, {
     method: 'PUT',
     headers: {
       'Content-Type': 'application/json'

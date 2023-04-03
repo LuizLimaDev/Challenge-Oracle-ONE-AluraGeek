@@ -18,7 +18,7 @@
 
   padding: 1rem;
 
-  background-color: var(--secondary-white);
+  background-color: var(--input-color);
 }
 
 .addProduct-title {
@@ -29,25 +29,39 @@
 }
 
 .addProduct-input {
+  position: relative;
   width: 100%;
   height: 56px;
   border: none;
   box-shadow: rgba(0, 0, 0, 0.15) 0 1.95px 2.6px;
-  padding: .5rem 0 0 .75rem;
+  margin-bottom: 1rem;
+  padding: .75rem 0 0 .75rem;
 }
 
 .addProduct-label {
-  position: relative;
-  bottom: 52px;
-  left: .75rem;
-
   font-weight: 400;
   font-size: .75rem;
 }
 
-.url {
-  position: relative;
-  transform: translate(50%);
+.url,
+.section,
+.name,
+.price {
+  position: absolute;
+  transform: translate(15%, 30%);
+  top: 18%;
+}
+
+.section {
+  top: 28%;
+}
+
+.name {
+  top: 38%;
+}
+
+.price {
+  top: 48%;
 }
 
 .description {
@@ -105,10 +119,6 @@
   .header-admin {
     order: 3;
   }
-
-  .description {
-    margin-bottom: 1rem;
-  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -122,12 +132,14 @@
     padding: 2rem 20rem;
   }
 
-  .addProduct-label {
-    transform: translate(10%, 90%);
+  .url,
+  .section,
+  .name,
+  .price {
+    transform: translate(15%, 120%);
   }
 
   .section {
-    transform: translate(20%, 90%);
+    transform: translate(5%, 120%);
   }
-
 }

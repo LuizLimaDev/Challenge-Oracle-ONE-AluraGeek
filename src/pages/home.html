@@ -23,7 +23,10 @@
 
       <a href="./login.html" class="header-login">Login</a>
 
-      <img src="../img/header/search.png" alt="imagem lupa" class="header-search">
+      <div class="container-search">
+        <input type="search" name="search" class="search-input" placeholder="O que deseja encontrar?">
+        <img src="../img/header/search.png" alt="imagem lupa" class="header-search">
+      </div>
     </section>
   </header>
 
@@ -43,12 +46,12 @@
         <h2 class="products-titleBar-tittle">Star Wars</h2>
 
         <div class="container-seeAll">
-          <a href="./products.html" class="products-titleBar-link">Ver tudo</a>
+          <a href="./star-wars.html" class="products-titleBar-link">Ver tudo</a>
           <img src="../img/products/arrow_back_black_24dp 1.png" alt="" class="products-titleBar-arrow">
         </div>
       </div>
 
-      <section class="products-preview starWars"></section>
+      <section class="products-preview starWars" data-starwars></section>
     </section>
 
     <!-- Consoles -->
@@ -57,12 +60,12 @@
         <h2 class="products-titleBar-tittle">Consoles</h2>
 
         <div class="container-seeAll">
-          <a href="./products.html" class="products-titleBar-link">Ver tudo</a>
+          <a href="./consoles.html" class="products-titleBar-link">Ver tudo</a>
           <img src="../img/products/arrow_back_black_24dp 1.png" alt="" class="products-titleBar-arrow">
         </div>
       </div>
 
-      <section class="products-preview consoles"></section>
+      <section class="products-preview consoles" data-consoles></section>
     </section>
 
     <!-- Diversos -->
@@ -71,12 +74,12 @@
         <h2 class="products-titleBar-tittle">Diversos</h2>
 
         <div class="container-seeAll">
-          <a href="./products.html" class="products-titleBar-link">Ver tudo</a>
+          <a href="./diversos.html" class="products-titleBar-link">Ver tudo</a>
           <img src="../img/products/arrow_back_black_24dp 1.png" alt="" class="products-titleBar-arrow">
         </div>
       </div>
 
-      <section class="products-preview diversos"></section>
+      <section class="products-preview diversos" data-diversos></section>
     </section>
   </main>
 
@@ -123,7 +126,7 @@
     </section>
   </footer>
 
-  <script src="../js/product-show.js" type="module"></script>
+  <script src="../js/controller/product-section-controller.js" type="module"></script>
 </body>
 
 </html>

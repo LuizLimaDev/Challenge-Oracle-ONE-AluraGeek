@@ -25,16 +25,21 @@
 
       <a href="./login.html" class="header-login">Login</a>
 
-      <img src="../img/header/search.png" alt="imagem lupa" class="header-search">
+      <div class="container-search">
+        <input type="search" name="search" class="search-input" placeholder="O que deseja encontrar?">
+        <img src="../img/header/search.png" alt="imagem lupa" class="header-search">
+      </div>
     </section>
   </header>
 
   <main>
 
     <section class="container-allProducts">
-      <h2 class="allProducts-title">Todos os produtos</h2>
+      <div class="container-tittle">
+        <h2 class="allProducts-title">Todos os produtos</h2>
 
-      <a href="./product-add.html" class="allProducts-button">Adicionar produtos</a>
+        <a href="./product-add.html" class="allProducts-button">Adicionar produtos</a>
+      </div>
 
       <div class="container-allProductsShow"></div>
 
@@ -64,8 +69,18 @@
       </div>
 
       <form>
-        <section class="container-form">
+        <section class="container-form" data-productBox>
+          <p class="form-title">Fale conosco</p>
 
+          <div class="container-input">
+            <input name="nome" type="text" class="input-name" required>
+            <label for="nome" class="input-label">Nome</label>
+
+            <textarea name="menssage" id="" cols="30" rows="10" class="input-menssage"
+              placeholder="Escreva sua mensagem" required></textarea>
+
+            <button class="input-button">Enviar mensagem</button>
+          </div>
         </section>
       </form>
     </section>
@@ -75,7 +90,7 @@
     </section>
   </footer>
 
-  <script src="../js/show-all-products.js" type="module"></script>
+  <script src="../js/controller/product-list-controller.js" type="module"></script>
 </body>
 
 </html>

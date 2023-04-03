@@ -25,20 +25,25 @@
 
       <a href="../pages/login.html" class="header-login">Login</a>
 
-      <img src="../img/header/search.png" alt="imagem lupa" class="header-search">
+      <div class="container-search">
+        <input type="search" name="search" class="search-input" placeholder="O que deseja encontrar?">
+        <img src="../img/header/search.png" alt="imagem lupa" class="header-search">
+      </div>
     </section>
   </header>
 
   <main>
 
     <section class="container-login">
-      <h3 class="login-title">Iniciar Sessão</h3>
+      <form>
+        <h3 class="login-title">Iniciar Sessão</h3>
 
-      <input name="e-mail" type="email" class="login-input" placeholder="Escreva seu email" required>
+        <input name="e-mail" type="email" class="login-input" placeholder="Escreva seu email" data-email required>
 
-      <input name="senha" type="password" class="login-input" placeholder="Escreva sua senha" required>
+        <input name="senha" type="password" class="login-input" placeholder="Escreva sua senha" data-password required>
 
-      <button class="login-button">Entrar</button>
+        <button class="login-button" data-login>Entrar</button>
+      </form>
 
     </section>
 
@@ -87,6 +92,7 @@
     </section>
   </footer>
 
+  <script src="../js/validation.js"></script>
 </body>
 
 

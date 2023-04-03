@@ -8,22 +8,20 @@
 
   <link rel="stylesheet" href="../css/global.css">
   <link rel="stylesheet" href="../css/variables.css">
-  <link rel="stylesheet" href="../css/pages/product-add.css">
+  <link rel="stylesheet" href="../css/pages/sections.css">
 
-  <title>AluraGeek - Adicionar produto</title>
+  <title>AluraGeek - Consoles</title>
 </head>
 
 <body>
   <header>
     <section class="container-header">
-      <a href="../../index.html">
-        <div class="header-logo">
-          <img src="../img/header/logo img.svg" alt="img logo" class="logo-img">
-          <img src="../img/header/logo texto.svg" alt="logo text" class="logo-text">
-        </div>
-      </a>
+      <div class="header-logo">
+        <img src="../img/header/logo img.svg" alt="img logo" class="logo-img">
+        <img src="../img/header/logo texto.svg" alt="logo text" class="logo-text">
+      </div>
 
-      <a href="../pages/login.html" class="header-admin">Menu administrador</a>
+      <a href="./login.html" class="header-login">Login</a>
 
       <div class="container-search">
         <input type="search" name="search" class="search-input" placeholder="O que deseja encontrar?">
@@ -33,29 +31,22 @@
   </header>
 
   <main>
+    <section class="container-banner consoles-banner">
 
-    <section class="container-addProduct">
-      <h3 class="addProduct-title">Adicionar novo produto</h3>
+    </section>
 
-      <form data-form>
-        <input type="url" name="url" class="addProduct-input" data-url required>
-        <label for="url" class="addProduct-label">URL da imagem</label>
+    <!-- Consoles -->
+    <section class="container-products" id="consoles">
+      <div class="products-titleBar">
+        <h2 class="products-titleBar-tittle">Consoles</h2>
 
-        <input type="text" name="section" class="addProduct-input" data-section required>
-        <label for="section" class="addProduct-label">Categoria</label>
+        <div class="container-seeAll">
+          <a href="./home.html" class="products-titleBar-link">Voltar</a>
+          <img src="../img/products/arrow_back_black_24dp 1.png" alt="" class="products-titleBar-arrow">
+        </div>
+      </div>
 
-        <input type="text" name="name" class="addProduct-input" data-name required>
-        <label for="name" class="addProduct-label">Nome do produto</label>
-
-        <input type="number" name="price" class="addProduct-input" data-price required>
-        <label for="price" class="addProduct-label">Preço do produto</label>
-
-        <textarea name="description" cols="30" rows="10" class="addProduct-input description"
-          placeholder="Descrição do produto" data-description required></textarea>
-
-        <button class="addProduct-button">Adicionar produto</button>
-      </form>
-
+      <section class="products-preview consoles" data-consoles></section>
     </section>
 
   </main>
@@ -103,9 +94,7 @@
     </section>
   </footer>
 
-  <script src="../js/controller/product-add-controller.js" type="module"></script>
-
+  <script src="../js/controller/section-consoles-controller.js" type="module"></script>
 </body>
-
 
 </html>

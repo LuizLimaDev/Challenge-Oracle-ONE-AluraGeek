@@ -10,15 +10,16 @@
   padding: 1rem;
 }
 
-.container-login {
+.container-login,
+.container-login form {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 
-  height: 362px;
+  height: 365px;
 
-  background-color: var(--secondary-white);
+  background-color: var(--input-color);
 }
 
 .login-title {
@@ -47,4 +48,29 @@
 
   background-color: var(--primary-blue);
   color: var(--primary-white);
+}
+
+@media screen and (min-width: 768px) {
+  .container-header {
+    padding-left: 2rem;
+    justify-content: flex-start;
+    gap: 2rem;
+  }
+
+  .login-input {
+    width: 275px;
+    height: 41px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .login-input {
+    width: 423px;
+    height: 63px;
+  }
+
+  .login-button {
+    width: 423px;
+    height: 63px;
+  }
 }

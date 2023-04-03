@@ -9,7 +9,7 @@ function cardBuild(id, url, deleteImg, editImg, name, price) {
   <img src="${deleteImg}" alt="deletar produto" class="product-delete">
   <a href='..//../pages/product-edit.html?id=${id}'><img src="${editImg}" alt="editar produto" class="product-edit"></a>
   <h4 class="product-box-title">${name}</h4>
-  <p class="product-box-price">${price}</p>
+  <p class="product-box-price">R$ ${price}</p>
   <p class="product-id hide">#${id}</p>
   `
 

@@ -6,7 +6,7 @@ function cardBuild(url, name, price, id) {
   newProduct.className = 'product-box';
   newProduct.innerHTML = `<img src="${url}" alt="imagem do produto" class="product-box-img">
   <h4 class="product-box-title">${name}</h4>
-  <p class="product-box-price">${price}</p>
+  <p class="product-box-price">R$ ${price}</p>
   <a href="..//../pages/product.details.html?id=${id}" class="product-box-link">Ver produto</a>
   `
 

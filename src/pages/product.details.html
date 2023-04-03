@@ -25,15 +25,21 @@
 
       <a href="../pages/login.html" class="header-login">Login</a>
 
-      <img src="../img/header/search.png" alt="imagem lupa" class="header-search">
+      <div class="container-search">
+        <input type="search" name="search" class="search-input" placeholder="O que deseja encontrar?">
+        <img src="../img/header/search.png" alt="imagem lupa" class="header-search">
+      </div>
     </section>
   </header>
 
   <main>
 
-    <section class="container-productDetail"></section>
+    <section class="container-productDetail" data-product></section>
 
-    <section class="container-similarProducts"></section>
+    <h3 class="similarProducts-tittle">Produtos similares</h3>
+
+    <section class="container-similarProducts" data-similarProducts>
+    </section>
 
   </main>
 
@@ -80,7 +86,7 @@
     </section>
   </footer>
 
-  <script src="../js/controller/product-details-conntroller.js" type="module"></script>
+  <script src="../js/controller/product-details-controller.js" type="module"></script>
 </body>
 
 

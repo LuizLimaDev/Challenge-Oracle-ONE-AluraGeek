@@ -1,5 +1,5 @@
 const productList = () => {
-  return fetch(`http://localhost:3000/produtos/`)
+  return fetch(`https://alura-geek-api.onrender.com/produtos`)
     .then(resposta => {
       return resposta.json()
     })

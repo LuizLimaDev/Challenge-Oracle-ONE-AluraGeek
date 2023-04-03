@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  functions = "lambda/"
+
+[[redirects]]
+  from = "/.netlify/functions/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"

@@ -1,12 +1,12 @@
 const productList = () => {
-  return fetch(`https://luizlimadev.github.io/Challenge-Oracle-ONE-AluraGeek/db.json`)
+  return fetch(`http://localhost:3000/produtos/`)
     .then(resposta => {
       return resposta.json()
     })
 }
 
 const createProduct = (url, section, name, price, description) => {
-  fetch(`https://luizlimadev.github.io/Challenge-Oracle-ONE-AluraGeek/db.json`, {
+  fetch(`http://localhost:3000/produtos/`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'

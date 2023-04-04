@@ -24,8 +24,11 @@
       <a href="./login.html" class="header-login">Login</a>
 
       <div class="container-search">
-        <input type="search" name="search" class="search-input" placeholder="O que deseja encontrar?">
+        <input type="search" name="search" class="search-input" placeholder="O que deseja encontrar?" list="options">
         <img src="../img/header/search.png" alt="imagem lupa" class="header-search">
+
+        <datalist id="options" class="search-options" data-options>
+        </datalist>
       </div>
     </section>
   </header>

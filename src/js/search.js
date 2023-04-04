@@ -10,26 +10,46 @@ async function searchProduct() {
   let searchValue = '';
 
   searchInput.addEventListener('keydown', (event) => {
-    let founded = false;
+    // let founded = false;
 
     if (event.code === 'Enter') {
-      const valorInput = searchInput.value;
+      const inputValue = searchInput.value;
+      searchValue = inputValue.toLocaleLowerCase();
 
-      searchValue = valorInput.toLocaleLowerCase();
+      const filterProduct = conexaoConvertida.filter(search => {
+        const productsName = search.name.toLowerCase();
+
+        return productsName.includes(searchValue)
+      })
+
+      function renderProducts(filterProduct) {
+        const searchOptions = document.querySelector('[data-options]');
+
+        filterProduct.forEach((element) => {
+
+          return searchOptions.innerHTML += `
+          <option value="${element.name}" class="option-item">
+          </option>`;
+
+        })
+
+      }
+
+      renderProducts(filterProduct);
 
       // pesquisa
-      const pesquisaDosNomes = conexaoConvertida.forEach((event) => {
+      // const pesquisaDosNomes = conexaoConvertida.forEach((event) => {
 
-        if (searchValue === event.name.toLocaleLowerCase()) {
-          founded = true;
+      //   if (searchValue === event.name.toLocaleLowerCase()) {
+      //     founded = true;
 
-          window.location.href = `..//../pages/product.details.html?id=${event.id}`
-        }
-      });
+      //     window.location.href = `..//../pages/product.details.html?id=${event.id}`
+      //   }
+      // });
 
-      if (!founded) {
-        window.location.href = `..//../pages/product-not-founded.html`
-      }
+      // if (!founded) {
+      //   window.location.href = `..//../pages/product-not-founded.html`
+      // }
     }
   });
 }

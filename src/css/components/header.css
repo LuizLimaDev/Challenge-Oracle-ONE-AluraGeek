@@ -37,6 +37,10 @@
   color: var(--primary-blue);
 }
 
+.search-input {
+  display: none;
+}
+
 .header-search {
   width: 24px;
 }
@@ -49,9 +53,6 @@
   width: 126px;
 }
 
-.search-input {
-  display: none;
-}
 
 @media screen and (min-width: 768px) {
   .container-header {

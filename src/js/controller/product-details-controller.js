@@ -44,7 +44,7 @@ clienteService.productList()
 
     data.forEach(elemento => {
 
-      if (elemento.section === `${itemCategories.className}`) {
+      if (elemento.section === `${itemCategories.classList.value}`) {
         sectionSimilarProduct.appendChild(cardBuild(elemento.url, elemento.name, elemento.price, elemento.id))
       }
 

@@ -10,7 +10,7 @@
 <li>Criar produtos. </li><br>
 <li>Ler estas informações de um servidor através de uma requisição. </li><br>
 <li>Editar as informações do produto e alterar no servidor. </li><br>
-<li>Exlcuir o produto desejado</li>
+<li>Exlcuir o produto desejado.</li>
 </ol>
 </p><br>
 

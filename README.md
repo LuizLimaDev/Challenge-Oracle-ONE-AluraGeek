@@ -1,4 +1,4 @@
-<h1 align="center">Challenge-Oracle-ONE-AluraGeek</h1>
+<h1 align="center">🛍️ Challenge-Oracle-ONE-AluraGeek</h1>
 
 <p align="center">Terceiro projeto da Formação Oracle One na trilha de Front End da turma 4.</p>
 <br><br>

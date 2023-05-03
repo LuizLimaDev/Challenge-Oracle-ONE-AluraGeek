@@ -7,20 +7,22 @@ async function searchProduct() {
 
   // interaçao input search
   const searchInput = document.querySelector('.search-input')
-  let searchValue = '';
 
   searchInput.addEventListener('keydown', (event) => {
-    // let founded = false;
 
     if (event.code === 'Enter') {
-      const inputValue = searchInput.value;
-      searchValue = inputValue.toLocaleLowerCase();
+      const searcValue = searchInput.value.toLowerCase();
+      console.log(searcValue)
 
       const filterProduct = conexaoConvertida.filter(search => {
-        const productsName = search.name.toLowerCase();
-
-        return productsName.includes(searchValue)
+        const searchName = search.name.toLowerCase();
+        if (searchName === searcValue) {
+          console.log(searchName.indexOf(searchName));
+          console.log(search)
+        }
+        return;
       })
+      console.log(filterProduct)
 
       function renderProducts(filterProduct) {
         const searchOptions = document.querySelector('[data-options]');

@@ -1,12 +1,7 @@
-const productList = () => {
-  return fetch(`https://alura-geek-api.onrender.com/produtos`)
-    .then(resposta => {
-      return resposta.json()
-    })
-}
+const url = "https://alura-geek-api.onrender.com/produtos"
 
 const createProduct = (url, section, name, price, description) => {
-  fetch(`https://alura-geek-api.onrender.com/produtos`, {
+  fetch(url, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
@@ -22,24 +17,25 @@ const createProduct = (url, section, name, price, description) => {
       editImg: "../img/adding-product/edit.svg"
     })
   })
-
 }
 
-const productDelete = (id) => {
-  return fetch(`https://alura-geek-api.onrender.com/produtos/${id}`, {
-    method: 'DELETE'
-  })
+async function productList() {
+  const resposta = await fetch(url)
+  const data = await resposta.json();
+
+  return data
+
 }
 
 const productDetails = (id) => {
-  return fetch(`https://alura-geek-api.onrender.com/produtos/${id}`)
+  return fetch(`${url}/${id}`)
     .then(resposta => {
       return resposta.json()
     })
 }
 
 const updateProduct = (url, section, name, price, description, id) => {
-  fetch(`https://alura-geek-api.onrender.com/produtos/${id}`, {
+  fetch(`${url}/${id}`, {
     method: 'PUT',
     headers: {
       'Content-Type': 'application/json'
@@ -57,9 +53,13 @@ const updateProduct = (url, section, name, price, description, id) => {
     .then(resposta => {
       return resposta.json()
     })
-
 }
 
+const productDelete = (id) => {
+  return fetch(`${url}/${id}`, {
+    method: 'DELETE'
+  })
+}
 
 export const clienteService = {
   productList,

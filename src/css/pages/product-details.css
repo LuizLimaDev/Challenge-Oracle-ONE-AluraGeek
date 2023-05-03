@@ -85,11 +85,18 @@ main {
   .product-img {
     width: 254px;
     height: 157px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
 
   .product-box-description {
     height: 96px;
     overflow: hidden;
+  }
+
+  .product-similar-img {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
 }
 

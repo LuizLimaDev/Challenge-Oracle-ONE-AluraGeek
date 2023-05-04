@@ -1,0 +1,56 @@
+@import url('../components/header.css');
+@import url('../components/footer.css');
+
+.container-searched {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.searched-title {
+  margin-top: 3rem;
+}
+
+.searched-result {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.product-searched-link {
+  text-decoration: none;
+  color: var(--primary-gray);
+}
+
+.product-searched-img {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.product-searched-img:hover {
+  transform: scale(1.1);
+  opacity: 0.6;
+}
+
+.product-searched-title {
+  margin-top: 1rem;
+}
+
+.back-link {
+  width: 109px;
+  height: 40px;
+  padding: 12px 1rem;
+  margin: 3rem;
+  border: none;
+
+  font-weight: 600;
+  font-size: .85rem;
+  text-align: center;
+  text-decoration: none;
+
+  background-color: var(--primary-blue);
+  color: var(--primary-white);
+}

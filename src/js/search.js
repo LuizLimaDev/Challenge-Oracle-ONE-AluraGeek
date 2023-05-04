@@ -1,59 +1,51 @@
 let produtos = [];
 const endpointAPI = 'https://alura-geek-api.onrender.com/produtos'
 
+const searchInput = document.querySelector('.search-input');
+
+
 async function searchProduct() {
   const conexaoAPI = await fetch(endpointAPI)
   const conexaoConvertida = await conexaoAPI.json()
 
-  // interaçao input search
-  const searchInput = document.querySelector('.search-input')
+  //search
 
-  searchInput.addEventListener('keydown', (event) => {
-
+  searchInput.addEventListener('keypress', (event) => {
     if (event.code === 'Enter') {
-      const searcValue = searchInput.value.toLowerCase();
-      console.log(searcValue)
+      const result = conexaoConvertida.filter((product) => {
+        return product.name.toLowerCase().includes(searchInput.value.toLowerCase());
+      });
 
-      const filterProduct = conexaoConvertida.filter(search => {
-        const searchName = search.name.toLowerCase();
-        if (searchName === searcValue) {
-          console.log(searchName.indexOf(searchName));
-          console.log(search)
-        }
-        return;
-      })
-      console.log(filterProduct)
-
-      function renderProducts(filterProduct) {
-        const searchOptions = document.querySelector('[data-options]');
-
-        filterProduct.forEach((element) => {
-
-          return searchOptions.innerHTML += `
-          <option value="${element.name}" class="option-item">
-          </option>`;
-
-        })
-
-      }
-
-      renderProducts(filterProduct);
-
-      // pesquisa
-      // const pesquisaDosNomes = conexaoConvertida.forEach((event) => {
-
-      //   if (searchValue === event.name.toLocaleLowerCase()) {
-      //     founded = true;
-
-      //     window.location.href = `..//../pages/product.details.html?id=${event.id}`
-      //   }
-      // });
-
-      // if (!founded) {
-      //   window.location.href = `..//../pages/product-not-founded.html`
-      // }
+      renderSearchedProduct(result);
+      searchInput.value = '';
     }
+  })
+}
+
+function renderSearchedProduct(result) {
+  const titleText = document.querySelector('.searched-title');
+  const resultContainer = document.querySelector('.searched-result');
+
+  if (result.length <= 0) {
+    titleText.textContent = 'Produto não encontrado! 🥲'
+  }
+
+  titleText.textContent = 'Produtos encontrados!'
+
+  resultContainer.innerHTML = '';
+
+  result.forEach((product) => {
+    console.log(product.name, product.url, product.price)
+    resultContainer.innerHTML += `
+    <a href="..//../pages/product.details.html?id=${product.id}" class="product-searched-link">
+    <div class="product-searched-card">
+      <img src="${product.url}" alt="imagem do produto" class="product-searched-img">
+      <h3 class="product-searched-title">${product.name}</h3>
+      <p>${product.price}</p>
+    </div>
+    `
   });
 }
 
 searchProduct()
+

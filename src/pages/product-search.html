@@ -8,9 +8,9 @@
 
   <link rel="stylesheet" href="../css/global.css">
   <link rel="stylesheet" href="../css/variables.css">
-  <link rel="stylesheet" href="../css/pages/product-add.css">
+  <link rel="stylesheet" href="../css/pages/product-search.css">
 
-  <title>AluraGeek - Resultado pesquisa</title>
+  <title>AluraGeek - Pesquisa </title>
 </head>
 
 <body>
@@ -23,8 +23,6 @@
         </div>
       </a>
 
-      <a href="../pages/login.html" class="header-admin">Menu administrador</a>
-
       <div class="container-search">
         <input type="search" name="search" class="search-input" placeholder="O que deseja encontrar?">
         <img src="../img/header/search.png" alt="imagem lupa" class="header-search">
@@ -33,11 +31,12 @@
   </header>
 
   <main>
+    <section class="container-searched">
+      <h3 class="searched-title"></h3>
 
-    <section class="container-success">
-      <h3 class="success-title">Produto não encontrado! 🥲</h3>
+      <div class="searched-result"></div>
 
-      <a href="./home.html" class="success-link">Voltar</a>
+      <a href="./home.html" class="back-link">Voltar</a>
 
     </section>
 

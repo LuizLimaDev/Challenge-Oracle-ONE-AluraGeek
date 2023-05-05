@@ -14,6 +14,24 @@ main {
   background-color: var(--input-color);
 }
 
+.productDetail-titleBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-right: 152px;
+}
+
+.productDetail-link {
+  text-decoration: none;
+  color: var(--primary-blue);
+}
+
+.productDetail-arrow {
+  vertical-align: top;
+  padding-top: .1rem;
+}
+
 .product-box {
   display: flex;
   flex-direction: column;
@@ -67,6 +85,22 @@ main {
   text-decoration: none;
 
   color: var(--primary-blue);
+}
+
+.text-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 119px;
+  height: 40px;
+
+  font-weight: 600;
+  font-size: .875rem;
+  text-decoration: none;
+
+  background-color: var(--primary-blue);
+  color: var(--primary-white);
 }
 
 @media screen and (min-width: 768px) {

@@ -46,9 +46,9 @@
 
 .container-allProductsShow {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2.5rem;
 
   margin-top: 1rem;
 }
@@ -73,6 +73,8 @@
 .product-box-img {
   width: 140px;
   height: 140px;
+
+  border-radius: 15px;
 }
 
 .product-box-img:hover {

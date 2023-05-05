@@ -2,7 +2,7 @@ import { clienteService } from '../service/client-service.js';
 
 const form = document.querySelector('[data-form]');
 
-form.addEventListener('submit', (event) => {
+form.addEventListener('submit', async (event) => {
   event.preventDefault();
 
   const url = event.target.querySelector('[data-url]').value;
@@ -11,7 +11,7 @@ form.addEventListener('submit', (event) => {
   const price = event.target.querySelector('[data-price]').value;
   const description = event.target.querySelector('[data-description]').value;
 
-  clienteService.createProduct(url, section, name, price, description);
+  await clienteService.createProduct(url, section, name, price, description);
 
   window.location.href = "..//../pages/product-add-success.html";
 

@@ -18,15 +18,14 @@ import { clienteService } from '../service/client-service.js';
   inputPrice.value = dados.price;
   inputDescription.value = dados.description;
 
+  //edit
   const editForm = document.querySelector('[data-form]');
 
-  editForm.addEventListener('submit', (event) => {
+  editForm.addEventListener('submit', async (event) => {
     event.preventDefault();
 
-    clienteService.updateProduct(inputUrl.value, inputSection.value, inputName.value, inputPrice.value, inputDescription.value, id)
+    await clienteService.updateProduct(inputUrl.value, inputSection.value, inputName.value, inputPrice.value, inputDescription.value, id)
 
-    window.location.href = "..//../pages/product-add-success.html"
-
+    window.location.href = "..//../pages/products.html"
   });
 })()
-

@@ -1,7 +1,7 @@
 const url = "https://alura-geek-api.onrender.com/produtos"
 
 const createProduct = (url, section, name, price, description) => {
-  fetch(url, {
+  return fetch(`https://alura-geek-api.onrender.com/produtos`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
@@ -26,16 +26,16 @@ async function productList() {
   return data
 
 }
+async function productDetails(id) {
+  const resposta = await fetch(`${url}/${id}`)
+  const data = await resposta.json();
 
-const productDetails = (id) => {
-  return fetch(`${url}/${id}`)
-    .then(resposta => {
-      return resposta.json()
-    })
+  return data
+
 }
 
 const updateProduct = (url, section, name, price, description, id) => {
-  fetch(`${url}/${id}`, {
+  return fetch(`https://alura-geek-api.onrender.com/produtos/${id}`, {
     method: 'PUT',
     headers: {
       'Content-Type': 'application/json'

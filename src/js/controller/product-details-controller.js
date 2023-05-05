@@ -21,32 +21,36 @@ clienteService.productDetails(id)
     `
   })
 
-// produtos similares
+// card simliar product
 const sectionSimilarProduct = document.querySelector('[data-similarProducts]');
 
-// template de exibicao dos produtos
 function cardBuild(url, name, price, id) {
   const newProduct = document.createElement('div');
   newProduct.className = 'product-similar';
-  newProduct.innerHTML = `<img src="${url}" alt="imagem do produto" class="product-similar-img">
+  newProduct.innerHTML = `
+  <a href="..//../pages/product-details.html?id=${id}">
+    <img src="${url}" alt="imagem do produto" class="product-similar-img">
+  </a>
   <h4 class="product-similar-title">${name}</h4>
   <p class="product-similar-price">R$ ${price}</p>
-  <a href="..//../pages/product.details.html?id=${id}" class="product-similar-link">Ver produto</a>
+  <a href="..//../pages/product-details.html?id=${id}" class="product-similar-link">Ver produto</a>
   `
 
   return newProduct;
 }
 
+//similar product render
+const renderProductsSimilar = async () => {
+  const data = await clienteService.productList()
 
-clienteService.productList()
-  .then(data => {
-    const itemCategories = document.querySelector('[data-category]');
+  const itemCategories = document.querySelector('[data-category]');
 
-    data.forEach(elemento => {
-
-      if (elemento.section === `${itemCategories.classList.value}`) {
-        sectionSimilarProduct.appendChild(cardBuild(elemento.url, elemento.name, elemento.price, elemento.id))
-      }
-
-    })
+  data.forEach(elemento => {
+    if (elemento.section === `${itemCategories.classList.value}`) {
+      sectionSimilarProduct.appendChild(cardBuild(elemento.url, elemento.name, elemento.price, elemento.id))
+    }
   })
+
+}
+
+renderProductsSimilar();

@@ -1,7 +1,7 @@
 import { clienteService } from "../service/client-service.js";
 import { deleteProduct } from "./product-delete-controller.js";
 
-// template de exibicao dos produtos
+// cards
 function cardBuild(id, url, deleteImg, editImg, name, price) {
   const newProduct = document.createElement('div');
   newProduct.className = 'product-box';
@@ -18,16 +18,17 @@ function cardBuild(id, url, deleteImg, editImg, name, price) {
   return newProduct;
 }
 
-// output dos produtos
+// render
+const render = async () => {
+  const data = await clienteService.productList()
+  const productSection = document.querySelector('.container-allProductsShow')
 
-const productSection = document.querySelector('.container-allProductsShow')
-
-clienteService.productList()
-  .then(data => {
-    data.forEach(elemento => {
-      productSection.appendChild(cardBuild(elemento.id, elemento.url, elemento.deleteImg, elemento.editImg, elemento.name, elemento.price))
-    })
+  data.forEach(elemento => {
+    productSection.appendChild(cardBuild(elemento.id, elemento.url, elemento.deleteImg, elemento.editImg, elemento.name, elemento.price))
   })
+}
+
+render();
 
 // funcao deletear
 deleteProduct()

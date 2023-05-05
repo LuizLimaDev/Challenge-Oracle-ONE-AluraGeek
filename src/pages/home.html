@@ -26,9 +26,6 @@
       <div class="container-search">
         <input type="search" name="search" class="search-input" placeholder="O que deseja encontrar?" list="options">
         <img src="../img/header/search.png" alt="imagem lupa" class="header-search">
-
-        <datalist id="options" class="search-options" data-options>
-        </datalist>
       </div>
     </section>
   </header>
@@ -43,48 +40,50 @@
       <a href="./consoles.html" class="text-link"> Ver Consoles</a>
     </section>
 
-    <!-- Star Wars -->
-    <section class="container-products" id="starWars">
-      <div class="products-titleBar">
-        <h2 class="products-titleBar-tittle">Star Wars</h2>
+    <div class="products-categories">
+      <!-- Star Wars -->
+      <section class="container-products" id="starWars">
+        <div class="products-titleBar">
+          <h2 class="products-titleBar-tittle">Star Wars</h2>
 
-        <div class="container-seeAll">
-          <a href="./star-wars.html" class="products-titleBar-link">Ver tudo</a>
-          <img src="../img/products/arrow_back_black_24dp 1.png" alt="" class="products-titleBar-arrow">
-          <p></p>
+          <div class="container-seeAll">
+            <a href="./star-wars.html" class="products-titleBar-link">Ver tudo</a>
+            <img src="../img/products/arrow_back_black_24dp 1.png" alt="" class="products-titleBar-arrow">
+            <p></p>
+          </div>
         </div>
-      </div>
 
-      <section class="products-preview starWars" data-starwars></section>
-    </section>
+        <section class="products-preview starWars" data-starwars></section>
+      </section>
 
-    <!-- Consoles -->
-    <section class="container-products" id="consoles">
-      <div class="products-titleBar">
-        <h2 class="products-titleBar-tittle">Consoles</h2>
+      <!-- Consoles -->
+      <section class="container-products" id="consoles">
+        <div class="products-titleBar">
+          <h2 class="products-titleBar-tittle">Consoles</h2>
 
-        <div class="container-seeAll">
-          <a href="./consoles.html" class="products-titleBar-link">Ver tudo</a>
-          <img src="../img/products/arrow_back_black_24dp 1.png" alt="" class="products-titleBar-arrow">
+          <div class="container-seeAll">
+            <a href="./consoles.html" class="products-titleBar-link">Ver tudo</a>
+            <img src="../img/products/arrow_back_black_24dp 1.png" alt="" class="products-titleBar-arrow">
+          </div>
         </div>
-      </div>
 
-      <section class="products-preview consoles" data-consoles></section>
-    </section>
+        <section class="products-preview consoles" data-consoles></section>
+      </section>
 
-    <!-- Diversos -->
-    <section class="container-products" id="diversos">
-      <div class="products-titleBar">
-        <h2 class="products-titleBar-tittle">Diversos</h2>
+      <!-- Diversos -->
+      <section class="container-products" id="diversos">
+        <div class="products-titleBar">
+          <h2 class="products-titleBar-tittle">Diversos</h2>
 
-        <div class="container-seeAll">
-          <a href="./diversos.html" class="products-titleBar-link">Ver tudo</a>
-          <img src="../img/products/arrow_back_black_24dp 1.png" alt="" class="products-titleBar-arrow">
+          <div class="container-seeAll">
+            <a href="./diversos.html" class="products-titleBar-link">Ver tudo</a>
+            <img src="../img/products/arrow_back_black_24dp 1.png" alt="" class="products-titleBar-arrow">
+          </div>
         </div>
-      </div>
 
-      <section class="products-preview diversos" data-diversos></section>
-    </section>
+        <section class="products-preview diversos" data-diversos></section>
+      </section>
+    </div>
   </main>
 
   <footer>
@@ -130,7 +129,6 @@
   </footer>
 
   <script src="../js/controller/product-section-controller.js" type="module"></script>
-  <script src="../js/search.js"></script>
 
 </body>
 

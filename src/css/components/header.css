@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
 
-  height: 72px;
+  height: 4.5rem;
   padding: 0 1rem;
 }
 
@@ -13,11 +13,11 @@
 }
 
 .logo-img {
-  width: 28.41px;
+  width: 1.77rem;
 }
 
 .logo-text {
-  width: 71.59px;
+  width: 4.47rem;
 }
 
 .header-login {
@@ -25,8 +25,8 @@
   align-items: center;
   justify-content: center;
 
-  width: 133px;
-  height: 40px;
+  width: 8.31rem;
+  height: 2.5rem;
   border: 1px solid var(--primary-blue);
 
   font-weight: 600;
@@ -42,15 +42,15 @@
 }
 
 .header-search {
-  width: 24px;
+  width: 1.5rem;
 }
 
 .large {
-  width: 50px;
+  width: 53.12rem;
 }
 
 .wider {
-  width: 126px;
+  width: 7.87rem;
 }
 
 
@@ -71,11 +71,11 @@
     display: flex;
 
     position: relative;
-    width: 272px;
-    height: 40px;
+    width: 17rem;
+    height: 2.5rem;
     padding: .75rem 1rem;
     border: 1px solid var(--input-color);
-    border-radius: 30px;
+    border-radius: 1.87rem;
 
     font-weight: 400;
     font-size: .875rem;
@@ -99,7 +99,7 @@
   }
 
   .search-input {
-    width: 393px;
+    width: 24.56rem;
   }
 
   .header-search {

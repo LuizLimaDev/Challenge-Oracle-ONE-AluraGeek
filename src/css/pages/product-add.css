@@ -30,7 +30,7 @@
 
 .addProduct-input {
   width: 100%;
-  height: 56px;
+  height: 3.5rem;
   border: none;
   box-shadow: rgba(0, 0, 0, 0.15) 0 1.95px 2.6px;
   padding: .5rem 0 0 .75rem;
@@ -38,20 +38,15 @@
 
 .addProduct-label {
   position: relative;
-  bottom: 52px;
+  bottom: 3.25rem;
   left: .75rem;
 
   font-weight: 400;
   font-size: .75rem;
 }
 
-.url {
-  position: relative;
-  transform: translate(50%);
-}
-
 .description {
-  height: 82px;
+  height: 5.1rem;
 
   font-family: var(--primary-font);
   font-size: 1rem;
@@ -59,8 +54,8 @@
 
 .addProduct-button {
   width: 100%;
-  height: 51px;
-  padding: 12px 1rem;
+  height: 3.1rem;
+  padding: .75rem 1rem;
   border: none;
 
   font-weight: 600;
@@ -87,9 +82,9 @@
 }
 
 .success-link {
-  width: 109px;
-  height: 40px;
-  padding: 12px 1rem;
+  width: 6.8rem;
+  height: 2.5rem;
+  padding: .75rem 1rem;
   border: none;
 
   font-weight: 600;
@@ -120,14 +115,6 @@
 
     margin: 0 auto;
     padding: 2rem 20rem;
-  }
-
-  .addProduct-label {
-    transform: translate(10%, 90%);
-  }
-
-  .section {
-    transform: translate(20%, 90%);
   }
 
 }

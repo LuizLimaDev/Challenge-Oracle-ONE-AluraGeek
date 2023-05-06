@@ -8,7 +8,7 @@
   justify-content: flex-end;
 
   width: 100%;
-  height: 192px;
+  height: 12rem;
   padding: 1rem;
 }
 
@@ -52,8 +52,8 @@
   align-items: center;
   justify-content: center;
 
-  width: 119px;
-  height: 40px;
+  width: 7.43rem;
+  height: 2.5rem;
 
   font-weight: 600;
   font-size: .875rem;
@@ -70,7 +70,7 @@
 
 @media screen and (min-width: 1440px) {
   .container-banner {
-    height: 352px;
+    height: 22rem;
     padding-left: 9.5rem;
   }
 
@@ -83,6 +83,6 @@
   }
 
   .text-link {
-    width: 130px;
+    width: 8.1rem;
   }
 }

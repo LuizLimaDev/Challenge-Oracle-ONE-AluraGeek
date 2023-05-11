@@ -1,7 +1,7 @@
-const url = "https://alura-geek-api.onrender.com/produtos"
+const url = "https://json-server-favoriteflix.vercel.app/produtos"
 
 const createProduct = (url, section, name, price, description) => {
-  return fetch(`https://alura-geek-api.onrender.com/produtos`, {
+  return fetch(`https://json-server-favoriteflix.vercel.app/produtos`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
@@ -35,7 +35,7 @@ async function productDetails(id) {
 }
 
 const updateProduct = (url, section, name, price, description, id) => {
-  return fetch(`https://alura-geek-api.onrender.com/produtos/${id}`, {
+  return fetch(`https://json-server-favoriteflix.vercel.app/produtos/${id}`, {
     method: 'PUT',
     headers: {
       'Content-Type': 'application/json'

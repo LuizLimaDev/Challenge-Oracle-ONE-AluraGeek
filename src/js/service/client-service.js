@@ -51,6 +51,8 @@ const updateProduct = (url, section, name, price, description, id) => {
     })
   })
     .then(resposta => {
+      window.location.href = "..//../pages/products.html"
+
       return resposta.json()
     })
 }

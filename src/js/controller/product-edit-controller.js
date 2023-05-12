@@ -26,6 +26,13 @@ import { clienteService } from '../service/client-service.js';
 
     await clienteService.updateProduct(inputUrl.value, inputSection.value, inputName.value, inputPrice.value, inputDescription.value, id)
 
-    window.location.href = "..//../pages/products.html"
+    // await redirect
+
+    // const buttonEdit = document.querySelector('.addProduct-button');
+    // buttonEdit.addEventListener('click', async () => {
+
+    // })
   });
+
+
 })()

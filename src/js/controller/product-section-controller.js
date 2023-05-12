@@ -10,7 +10,7 @@ function cardBuild(url, name, price, id, section) {
   </a>
   <h4 class="product-box-title" id=${section} >${name}</h4>
   <p class="product-box-price">R$ ${price}</p>
-  <a href="..//../pages/product-details.html?id=${id}" class="product-box-link">Ver produto
+  <a href="..//../pages/product-details.html?id=${id}" class="product-box-link">Ver produto</a>
   `
 
   newProduct.dataset.id = id;

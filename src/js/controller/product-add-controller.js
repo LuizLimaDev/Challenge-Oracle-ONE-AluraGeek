@@ -12,5 +12,8 @@ form.addEventListener('submit', async (event) => {
   const description = event.target.querySelector('[data-description]').value;
 
   await clienteService.createProduct(url, section, name, price, description);
+
+  window.location.href = "..//../pages/product-add-success.html"
+
 });
 

@@ -17,6 +17,9 @@ const createProduct = (url, section, name, price, description) => {
       editImg: "../img/adding-product/edit.svg"
     })
   })
+
+  window.location.href = "..//../pages/product-add-success.html"
+
 }
 
 async function productList() {

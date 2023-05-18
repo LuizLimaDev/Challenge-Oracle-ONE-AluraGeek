@@ -1,7 +1,7 @@
-const url = "https://json-server-favoriteflix-np0z3b1i5-devluizlima.vercel.app/produtos"
+const url = "https://json-server-alurageek.vercel.app/produtos"
 
 const createProduct = (url, section, name, price, description) => {
-  return fetch(`https://json-server-favoriteflix-np0z3b1i5-devluizlima.vercel.app/produtos`, {
+  return fetch(`https://json-server-alurageek.vercel.app/produtos`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
@@ -17,9 +17,6 @@ const createProduct = (url, section, name, price, description) => {
       editImg: "../img/adding-product/edit.svg"
     })
   })
-
-  window.location.href = "..//../pages/product-add-success.html"
-
 }
 
 async function productList() {
@@ -38,7 +35,7 @@ async function productDetails(id) {
 }
 
 const updateProduct = (url, section, name, price, description, id) => {
-  return fetch(`https://json-server-favoriteflix-np0z3b1i5-devluizlima.vercel.app/produtos/${id}`, {
+  return fetch(`https://json-server-alurageek.vercel.app/produtos/${id}`, {
     method: 'PUT',
     headers: {
       'Content-Type': 'application/json'
